@@ -16,7 +16,7 @@ import DeltaMachine from '../../assets/Delta-Machine.jpg';
 import Spirit from '../../assets/Spirit.jpg';
 import MementoMori from '../../assets/Memento-Mori.jpg';
 
-const Albums = () => {
+const Albums = (): JSX.Element  => {
   return (
     <div className='cards-container'>
         <h1 className='title-albums'>Albums</h1>

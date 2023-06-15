@@ -1,7 +1,7 @@
 import React from 'react'
 import './biography.scss'
 
-const Biography = () => {
+const Biography = (): JSX.Element  => {
   return (
     <div className="biography">
         <div className="biography-trasparent">

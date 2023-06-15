@@ -1,13 +1,12 @@
 import React from 'react';
 import './main.scss';
-import image from '../../assets/depeche-mode.webp';
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
-const Main = () => {
+const Main = (): JSX.Element  => {
   return (
     <div className="home-trasparent">
         <div className="members-box">
-            <img className="img" src={image} alt="Depeche Mode" />
+          <Outlet />
             <div className="members">
                 <h1 className="depeche-mode">Depeche Mode</h1>
                 <Link className='link' to={'martin/'}>Martin L. Gore</Link>

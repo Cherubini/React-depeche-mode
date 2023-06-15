@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createHashRouter } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { render } from 'react-dom';
 import Albums from './components/albums/albums';
 import Biography from './components/biograpy/biography';
 import Gallery from './components/gallery/gallery';
@@ -13,67 +14,53 @@ import Alan from './components/members/alan/alan';
 import Andrew from './components/members/andrew/andrew';
 import Dave from './components/members/dave/dave';
 import Martin from './components/members/martin/martin';
+import MainImg from './components/main-img/main-img';
 
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-        children: [
-          {
-            path: "home?/martin",
-            element: <Martin />,
-          },
-          {
-            path: "home?/andrew",
-            element: <Andrew />,
-          },
-          {
-            path: "home?/dave",
-            element: <Dave />,
-          },
-          {
-            path: "home?/alan",
-            element: <Alan />,
-          },
-          {
-            path: "/",
-            element: <Main />,
-          },]
-      },
-      {
-        path: "home/",
-        element: <Main />,
-      },
-      {
-        path: "biography/",
-        element: <Biography />,
-      },
-      {
-        path: "albums/",
-        element: <Albums />,
-      },
-      {
-        path: "gallery/",
-        element: <Gallery />,
-      },
-    ],
-  }
-]);
+const root = document.getElementById('root') as HTMLElement;
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
+// render(
+//   <React.StrictMode>
+//     <HashRouter>
+//       <Routes>
+//         <Route path="/" element={<App />}>
+//           <Route path="/" element={<Home />}>
+//             <Route path="home?/martin" element={<Martin />} />
+//             <Route path="home?/andrew" element={<Andrew />} />
+//             <Route path="home?/dave" element={<Dave />} />
+//             <Route path="home?/alan" element={<Alan />} />
+//             <Route path="/" element={<Main />} />
+//           </Route>
+//           <Route path="home/" element={<Main />} />
+//           <Route path="biography/" element={<Biography />} />
+//           <Route path="albums/" element={<Albums />} />
+//           <Route path="gallery/" element={<Gallery />} />
+//         </Route>
+//       </Routes>
+//     </HashRouter>
+//   </React.StrictMode>,
+//   root
+// );
+
+render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route path="/" element={<Main />}>
+            <Route path="home?/martin" element={<Martin />} />
+            <Route path="home?/andrew" element={<Andrew />} />
+            <Route path="home?/dave" element={<Dave />} />
+            <Route path="home?/alan" element={<Alan />} />
+            <Route path="home?/" element={<MainImg />} />
+          </Route>
+          <Route path="biography/" element={<Biography />} />
+          <Route path="albums/" element={<Albums />} />
+          <Route path="gallery/" element={<Gallery />} />
+        </Route>
+      </Routes>
+    </HashRouter>
+  </React.StrictMode>,
+  root
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

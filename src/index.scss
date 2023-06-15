@@ -9,8 +9,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .header{
@@ -33,14 +32,6 @@ code {
   margin: 0px;
 }
 
-.nav{
-  display: inline;
-  margin-left: 25px;
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-}
-
 .footer{
   background-color: rgb(20, 21, 23);
   color: white;
@@ -48,11 +39,14 @@ code {
   border-top: 3px solid white;
 }
 
-.link{
-  text-decoration: none;
+.nav-link{
   color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline;
+  margin-left: 15px;
 }
 
-.link:hover{
+.nav-link:hover{
   text-decoration: underline;
 }

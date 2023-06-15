@@ -2,7 +2,7 @@ import React from 'react'
 import './home.scss'
 import { Outlet } from 'react-router-dom';
 
-const Home = () => {
+const Home = (): JSX.Element  => {
   return (
     <div className="home">
         <Outlet />

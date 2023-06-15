@@ -14,7 +14,7 @@ import eleven from '../../assets/11.webp';
 import twelve from '../../assets/12.webp';
 import thirteen from '../../assets/13.jpg';
 
-const Gallery = () => {
+const Gallery = (): JSX.Element  => {
   return (
     <div className='gallery-container'>
         <h1 className='title-gallery'>Gallery</h1>
