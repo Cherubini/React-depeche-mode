@@ -38,7 +38,7 @@ const Albums = () => {
             <h1 className='title-album'>A Broken Frame</h1>
             <div className='details'>
                 <img className='album-img' src={ABrokenFrame} alt="A Broken Frame" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 27 September 1982</span>
                     <span><strong>Studio:</strong> Blackwing (London)</span>
                     <span><strong>Genre:</strong> Synth-pop</span>
@@ -52,7 +52,7 @@ const Albums = () => {
             <h1 className='title-album'>Construction Time Again</h1>
             <div className='details'>
                 <img className='album-img' src={ConstructionTimeAgain} alt="Construction Time Again" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 22 August 1983</span>
                     <span><strong>Studio:</strong> The Garden (London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Industrial</span>
@@ -66,7 +66,7 @@ const Albums = () => {
             <h1 className='title-album'>Some Great Reward</h1>
             <div className='details'>
                 <img className='album-img' src={SomeGreatReward} alt="Some Great Reward" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 24 September 1984</span>
                     <span><strong>Studio:</strong> Music Works (Highbury, London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Industrial, New Wave</span>
@@ -80,7 +80,7 @@ const Albums = () => {
             <h1 className='title-album'>Black Celebration</h1>
             <div className='details'>
                 <img className='album-img' src={BlackCelebration} alt="Black Celebration" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 17 March 1986</span>
                     <span><strong>Studio:</strong> Westside and Genetic (London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Post-Punk</span>
@@ -94,7 +94,7 @@ const Albums = () => {
             <h1 className='title-album'>Music For The Masses</h1>
             <div className='details'>
                 <img className='album-img' src={MusicForTheMasses} alt="Music For The Masses" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 28 September 1987</span>
                     <span><strong>Studio:</strong> Guillaume Tell (Paris), Konk (London), Puk (Gjerlev, Denmark)</span>
                     <span><strong>Genre:</strong> Synth-pop, New Wave</span>
@@ -108,7 +108,7 @@ const Albums = () => {
             <h1 className='title-album'>Violator</h1>
             <div className='details'>
                 <img className='album-img' src={Violator} alt="Violator" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 19 March 1990</span>
                     <span><strong>Studio:</strong> Logic (Milan), Puk (Gjerlev), The Church Studios (London), Master Rock (London), Axis (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Alternative Rock, Dance, Gothic Rock</span>
@@ -122,7 +122,7 @@ const Albums = () => {
             <h1 className='title-album'>Songs Of Faith And Devotion</h1>
             <div className='details'>
                 <img className='album-img' src={SOFAD} alt="Songs Of Faith And Devotion" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 22 March 1993</span>
                     <span><strong>Studio:</strong> Madrid, Chateau du Pape (Hamburg)</span>
                     <span><strong>Genre:</strong> Alternative rock, Grunge</span>
@@ -136,7 +136,7 @@ const Albums = () => {
             <h1 className='title-album'>Ultra</h1>
             <div className='details'>
                 <img className='album-img' src={Ultra} alt="Speak & Spell" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 14 April 1997</span>
                     <span><strong>Studio:</strong> Abbey Road, Eastcote, Westside, Strongroom and RAK (London), Electric Lady (New York City), Larrabee West (Los Angeles)</span>
                     <span><strong>Genre:</strong> Alternative rock, Trip-Hop</span>
@@ -150,7 +150,7 @@ const Albums = () => {
             <h1 className='title-album'>Exciter</h1>
             <div className='details'>
                 <img className='album-img' src={Exciter} alt="Exciter" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 14 May 2001</span>
                     <span><strong>Studio:</strong> RAK and Sarm West (London), Sound Design (Santa Barbara), Electric Lady and Sony (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Electronica</span>
@@ -164,7 +164,7 @@ const Albums = () => {
             <h1 className='title-album'>Playing The Angel</h1>
             <div className='details'>
                 <img className='album-img' src={PlayingTheAngel} alt="Playing The Angel" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 17 October 2005</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Stratosphere Sound (New York City), Whitfield Street (London)</span>
                     <span><strong>Genre:</strong> Electronic rock, Synth-Pop</span>
@@ -178,7 +178,7 @@ const Albums = () => {
             <h1 className='title-album'>Sounds Of The Universe</h1>
             <div className='details'>
                 <img className='album-img' src={SOTU} alt="Sounds Of The Universe" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 17 April 2009</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Chung King (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Electro Rock</span>
@@ -192,7 +192,7 @@ const Albums = () => {
             <h1 className='title-album'>Delta Machine</h1>
             <div className='details'>
                 <img className='album-img' src={DeltaMachine} alt="Delta Machine" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 22 March 2013</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Jungle City (New York City)</span>
                     <span><strong>Genre:</strong> Electropop, Industrial</span>
@@ -206,7 +206,7 @@ const Albums = () => {
             <h1 className='title-album'>Spirit</h1>
             <div className='details'>
                 <img className='album-img' src={Spirit} alt="Spirit" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 17 March 2017</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Jungle City (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop</span>
@@ -220,7 +220,7 @@ const Albums = () => {
             <h1 className='title-album'>Memento Mori</h1>
             <div className='details'>
                 <img className='album-img' src={MementoMori} alt="Memento Mori" />
-                <div class='span'>
+                <div className='span'>
                     <span><strong>Released:</strong> 24 March 2023</span>
                     <span><strong>Studio:</strong> Electric Ladyboy (Santa Barbara), Shangri-La (Malibu)</span>
                     <span><strong>Genre:</strong> Alternative Rock, Synth-pop</span>
