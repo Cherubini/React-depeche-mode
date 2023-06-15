@@ -9,7 +9,7 @@ function App() {
        <header className="header">
         <h1 className="title">Depeche Mode</h1>
         <ul className="nav-list">
-        <li className="nav"><Link className='link' to={"home/"}>Home</Link></li> la mamma di alg
+        <li className="nav"><Link className='link' to={"home/"}>Home</Link></li> 
           <li className="nav"><Link className='link' to={"biography/"}>Biography</Link></li>
           <li className="nav"><Link className='link' to={"albums/"}>Albums</Link></li>
           <li className="nav"><Link className='link' to={"gallery/"}>Gallery</Link></li>
