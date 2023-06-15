@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Outlet } from 'react-router-dom'
 import './App.scss';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
           <li className="nav">Gallery</li>
         </ul>
       </header>
-        {/* <Outlet /> */}
+        <Outlet />
       <footer className="footer">
         <address>
           Davide Consigliere, Valentina Cherubini<br/>

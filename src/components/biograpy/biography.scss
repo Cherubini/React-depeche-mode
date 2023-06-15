@@ -1,0 +1,34 @@
+.biography{
+    min-height: 75vh;
+    background-color: rgb(28, 28, 29);
+}
+
+.biography-trasparent{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(142, 142, 142, 0.293);
+    margin: auto;
+    position: relative;
+    top: 45px;
+    border-radius: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.144);
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.biography-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+span{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
