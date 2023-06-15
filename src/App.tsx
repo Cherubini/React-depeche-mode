@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 import './App.scss';
 
 function App() {
@@ -8,10 +8,10 @@ function App() {
        <header className="header">
         <h1 className="title">Depeche Mode</h1>
         <ul className="nav-list">
-          <li className="nav">Home</li>
-          <li className="nav">Biography</li>
-          <li className="nav">Albums</li>
-          <li className="nav">Gallery</li>
+        <li className="nav"><Link className='link' to={"home/"}>Home</Link></li> 
+          <li className="nav"><Link className='link' to={"biography/"}>Biography</Link></li>
+          <li className="nav"><Link className='link' to={"albums/"}>Albums</Link></li>
+          <li className="nav"><Link className='link' to={"gallery/"}>Gallery</Link></li>
         </ul>
       </header>
         <Outlet />
