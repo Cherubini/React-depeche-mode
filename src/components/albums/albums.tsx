@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './albums.scss';
 import SpeakAndSpell from '../../assets/Speak-&-Spell.png';
 import ABrokenFrame from '../../assets/A-Broken-Frame.png';
@@ -17,6 +17,11 @@ import Spirit from '../../assets/Spirit.jpg';
 import MementoMori from '../../assets/Memento-Mori.jpg';
 
 const Albums = (): JSX.Element  => {
+    
+    useEffect(() => {//fetch or subscribtion.rxjs
+        return () => { };  // cleanup
+      },[]);
+
   return (
     <div className='cards-container'>
         <h1 className='title-albums'>Albums</h1>

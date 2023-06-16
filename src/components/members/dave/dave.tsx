@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import dave from '../../../assets/Dave.jpg';
 import '../members-scss/members.scss';
 import { Link } from "react-router-dom";
 
 const Dave = (): JSX.Element  => {
+  
+  useEffect(() => {//fetch or subscribtion.rxjs
+    return () => { };  // cleanup
+  },[]);
+  
   return (
     <div className='member-card'>
         <img className='member-img' src={dave} alt='Dave Gahan' />

@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './biography.scss'
 
 const Biography = (): JSX.Element  => {
+  
+  useEffect(() => {//fetch or subscribtion.rxjs
+    return () => { };  // cleanup
+  },[]);
+  
   return (
     <div className="biography">
         <div className="biography-trasparent">

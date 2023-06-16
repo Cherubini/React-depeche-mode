@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './gallery.scss';
 import one from '../../assets/1.webp';
 import two from '../../assets/2.jpg';
@@ -15,6 +15,11 @@ import twelve from '../../assets/12.webp';
 import thirteen from '../../assets/13.jpg';
 
 const Gallery = (): JSX.Element  => {
+  
+  useEffect(() => {//fetch or subscribtion.rxjs
+    return () => { };  // cleanup
+  },[]);
+  
   return (
     <div className='gallery-container'>
         <h1 className='title-gallery'>Gallery</h1>
