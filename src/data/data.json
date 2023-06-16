@@ -4,19 +4,23 @@
     "members": [
         {
             "name":"Alan Wilder",
-            "bio":"Alan Charles Wilder (Londra, 1º giugno 1959) è un compositore, arrangiatore e produttore discografico britannico. È stato tra i componenti dei Depeche Mode. Successivamente ha creato anche il progetto sperimentale di musica elettronica Recoil nel 1986, come parallelo dei Depeche Mode. All'abbandono di questi ultimi (1995), Wilder si è dedicato esclusivamente a Recoil. Wilder ha prodotto e arrangiato brani anche per i Nitzer Ebb e i Curve. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode."
+            "bio":"Alan Charles Wilder (Londra, 1º giugno 1959) è un compositore, arrangiatore e produttore discografico britannico. È stato tra i componenti dei Depeche Mode. Successivamente ha creato anche il progetto sperimentale di musica elettronica Recoil nel 1986, come parallelo dei Depeche Mode. All'abbandono di questi ultimi (1995), Wilder si è dedicato esclusivamente a Recoil. Wilder ha prodotto e arrangiato brani anche per i Nitzer Ebb e i Curve. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Alan.jpg"
         },
         {
             "name": "Andrew Fletcher",
-            "bio": "Andrew John Fletcher, conosciuto anche semplicemente come Fletch, (Nottingham, 8 luglio 1961 - Londra, 26 maggio 2022), è stato un tastierista e musicista britannico. È noto per essere stato un membro fondatore del gruppo musicale inglese Depeche Mode, nei quali ha militato dal 1980 (anno di fondazione) fino alla sua morte, avvenuta nel 2022. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode."
+            "bio": "Andrew John Fletcher, conosciuto anche semplicemente come Fletch, (Nottingham, 8 luglio 1961 - Londra, 26 maggio 2022), è stato un tastierista e musicista britannico. È noto per essere stato un membro fondatore del gruppo musicale inglese Depeche Mode, nei quali ha militato dal 1980 (anno di fondazione) fino alla sua morte, avvenuta nel 2022. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Andrew.jpeg"
         },
         {
             "name": "Dave Gahan",
-            "bio": "Dave Gahan, all'anagrafe David Callcott (Epping, 9 maggio 1962), è un cantautore e musicista britannico, frontman del gruppo musicale Depeche Mode con il quale, nel 2020 è stato inserito nella Rock and Roll Hall of Fame."
+            "bio": "Dave Gahan, all'anagrafe David Callcott (Epping, 9 maggio 1962), è un cantautore e musicista britannico, frontman del gruppo musicale Depeche Mode con il quale, nel 2020 è stato inserito nella Rock and Roll Hall of Fame.",
+            "image":"../../../assets/Dave.jpg"
         },
         {
             "name": "Martin Gore",
-            "bio": "Martin Lee Gore (Dagenham, 23 luglio 1961) è un compositore, musicista e cantautore britannico, membro del gruppo Depeche Mode. Nella prima formazione del gruppo, il suo ruolo era soprattutto quello di tastierista, ma dopo l'abbandono di Vince Clarke, è diventato anche autore delle canzoni. Dal 1988, conseguentemente all'introduzione massiccia della chitarra nel sound della band, dal vivo ha iniziato ad alternare le tastiere a questa, il suo vero strumento. Altri suoi compiti sono sempre stati i cori e la voce principale in alcune canzoni. Grazie alle sue canzoni Gore è stato uno dei compositori ed autori migliori nel panorama musicale contemporaneo, a partire dall'elettronica, passando per il pop e arrivando sino al rock. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode."
+            "bio": "Martin Lee Gore (Dagenham, 23 luglio 1961) è un compositore, musicista e cantautore britannico, membro del gruppo Depeche Mode. Nella prima formazione del gruppo, il suo ruolo era soprattutto quello di tastierista, ma dopo l'abbandono di Vince Clarke, è diventato anche autore delle canzoni. Dal 1988, conseguentemente all'introduzione massiccia della chitarra nel sound della band, dal vivo ha iniziato ad alternare le tastiere a questa, il suo vero strumento. Altri suoi compiti sono sempre stati i cori e la voce principale in alcune canzoni. Grazie alle sue canzoni Gore è stato uno dei compositori ed autori migliori nel panorama musicale contemporaneo, a partire dall'elettronica, passando per il pop e arrivando sino al rock. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Martin.jpg"
         }        
     ],
     "albums":[

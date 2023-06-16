@@ -4,19 +4,23 @@
     "members": [
         {
             "name":"Alan Wilder",
-            "bio":"Alan Charles Wilder (Hammersmith, Londres, Inglaterra; 1 de junio de 1959) es un músico, arreglista, productor, programador y compositor inglés, más conocido por haber formado parte del grupo de música electrónica Depeche Mode."
+            "bio":"Alan Charles Wilder (Hammersmith, Londres, Inglaterra; 1 de junio de 1959) es un músico, arreglista, productor, programador y compositor inglés, más conocido por haber formado parte del grupo de música electrónica Depeche Mode.",
+            "image":"../../../assets/Alan.jpg"
         },
         {
             "name": "Andrew Fletcher",
-            "bio": "Andrew John Fletcher (Nottingham, 8 de julio de 1961-Londres, 26 de mayo de 2022) fue un músico y productor discográfico británico conocido por ser miembro fundador del grupo de música electrónica Depeche Mode."
+            "bio": "Andrew John Fletcher (Nottingham, 8 de julio de 1961-Londres, 26 de mayo de 2022) fue un músico y productor discográfico británico conocido por ser miembro fundador del grupo de música electrónica Depeche Mode.",
+            "image":"../../../assets/Andrew.jpeg"
         },
         {
             "name": "Dave Gahan",
-            "bio": "David Gahan (Epping, Essex; 9 de mayo de 1962, nacido como David Callcott), es un cantante barítono británico, conocido por ser el vocalista líder del grupo de música electrónica Depeche Mode desde su debut en 1980. Se ha desarrollado también como solista y ha publicado dos discos, Paper Monsters en 2003 y Hourglass en 2007, además de colaborar desde 2012 con el grupo Soulsavers. Gahan contribuyó además con composiciones propias para DM desde el álbum Playing the Angel de 2005, siguiendo con Sounds of the Universe de 2009 y Delta Machine de 2013, los tres producidos por Ben Hillier, así como en Spirit de 2017, producido por James Ford, es decir, en la etapa tardía del grupo. Cuatro de sus temas llegaron a ser publicados como sencillos, 'Suffer Well' en 2006, 'Hole to Feed' en 2009, 'Should Be Higher' en 2013 y 'Cover Me' en 2017."
+            "bio": "David Gahan (Epping, Essex; 9 de mayo de 1962, nacido como David Callcott), es un cantante barítono británico, conocido por ser el vocalista líder del grupo de música electrónica Depeche Mode desde su debut en 1980. Se ha desarrollado también como solista y ha publicado dos discos, Paper Monsters en 2003 y Hourglass en 2007, además de colaborar desde 2012 con el grupo Soulsavers. Gahan contribuyó además con composiciones propias para DM desde el álbum Playing the Angel de 2005, siguiendo con Sounds of the Universe de 2009 y Delta Machine de 2013, los tres producidos por Ben Hillier, así como en Spirit de 2017, producido por James Ford, es decir, en la etapa tardía del grupo. Cuatro de sus temas llegaron a ser publicados como sencillos, 'Suffer Well' en 2006, 'Hole to Feed' en 2009, 'Should Be Higher' en 2013 y 'Cover Me' en 2017.",
+            "image":"../../../assets/Dave.jpg"
         },
         {
             "name": "Martin L. Gore",
-            "bio": "Martin Lee Gore (Dagenham, Londres, Inglaterra; 23 de julio de 1961) es un músico inglés conocido por ser el principal compositor, así como teclista, guitarrista y segundo vocalista del grupo de música electrónica Depeche Mode. Autor de conocidos temas de éxito como Personal Jesus, Enjoy the Silence, I Feel You, Walking in My Shoes, People Are People, Master and Servant, Everything Counts, Stripped, Never Let Me Down Again, Strangelove, Precious, entre otros."
+            "bio": "Martin Lee Gore (Dagenham, Londres, Inglaterra; 23 de julio de 1961) es un músico inglés conocido por ser el principal compositor, así como teclista, guitarrista y segundo vocalista del grupo de música electrónica Depeche Mode. Autor de conocidos temas de éxito como Personal Jesus, Enjoy the Silence, I Feel You, Walking in My Shoes, People Are People, Master and Servant, Everything Counts, Stripped, Never Let Me Down Again, Strangelove, Precious, entre otros.",
+            "image":"../../../assets/Martin.jpg"
         }        
     ],
     "albums":[

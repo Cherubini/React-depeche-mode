@@ -4,19 +4,23 @@
     "members": [
         {
             "name":"Alan Wilder",
-            "bio":"Alan Charles Wilder (born 1 June 1959) is an English musician, composer, arranger, record producer and former member of the electronic band Depeche Mode from 1982 to 1995. Since his departure from the band, the musical project called Recoil became his primary musical enterprise, which initially started as a side project to Depeche Mode in 1986. Wilder has also provided production and remixing services to the bands Nitzer Ebb and Curve. Alan Wilder was inducted into the Rock and Roll Hall of Fame in 2020 as a member of Depeche Mode. He is a classically trained musician."
+            "bio":"Alan Charles Wilder (born 1 June 1959) is an English musician, composer, arranger, record producer and former member of the electronic band Depeche Mode from 1982 to 1995. Since his departure from the band, the musical project called Recoil became his primary musical enterprise, which initially started as a side project to Depeche Mode in 1986. Wilder has also provided production and remixing services to the bands Nitzer Ebb and Curve. Alan Wilder was inducted into the Rock and Roll Hall of Fame in 2020 as a member of Depeche Mode. He is a classically trained musician.",
+            "image":"../../../assets/Alan.jpg"
         },
         {
             "name": "Andrew Fletcher",
-            "bio": "Andrew John Fletcher (8 July 1961 – 26 May 2022), also known as Fletch, was an English keyboard player and founding member of the electronic band Depeche Mode. In 2020, he and the band were inducted into the Rock and Roll Hall of Fame."
+            "bio": "Andrew John Fletcher (8 July 1961 – 26 May 2022), also known as Fletch, was an English keyboard player and founding member of the electronic band Depeche Mode. In 2020, he and the band were inducted into the Rock and Roll Hall of Fame.",
+            "image":"../../../assets/Andrew.jpeg"
         },
         {
             "name": "Dave Gahan",
-            "bio": "David Gahan (born 9 May 1962) is an English singer and songwriter, best known as the lead singer of electronic band Depeche Mode since their formation in 1980. Noted for his commanding stage presence and unique baritone voice, Q magazine ranked him at No. 73 on its list of the '100 Greatest Singers' and No. 27 on its list of the '100 Greatest Frontmen'. As part of Depeche Mode, he was inducted into the Rock and Roll Hall of Fame in 2020."
+            "bio": "David Gahan (born 9 May 1962) is an English singer and songwriter, best known as the lead singer of electronic band Depeche Mode since their formation in 1980. Noted for his commanding stage presence and unique baritone voice, Q magazine ranked him at No. 73 on its list of the '100 Greatest Singers' and No. 27 on its list of the '100 Greatest Frontmen'. As part of Depeche Mode, he was inducted into the Rock and Roll Hall of Fame in 2020.",
+            "image":"../../../assets/Dave.jpg"
         },
         {
             "name": "Martin L. Gore",
-            "bio": "Martin Lee Gore (born 23 July 1961) is an English musician, singer, songwriter, record producer and DJ. He is one of the founding members of the electronic rock band Depeche Mode and is the band's main songwriter. He is the band's guitarist and keyboardist, and occasionally provides lead vocals. Gore possesses a tenor singing voice which contrasts with Dave Gahan's dramatic baritone. He is also known for his flamboyant and (sometimes) androgynous stage persona. Gore has also released several solo albums and collaborated with former Depeche Mode member Vince Clarke as part of VCMG."
+            "bio": "Martin Lee Gore (born 23 July 1961) is an English musician, singer, songwriter, record producer and DJ. He is one of the founding members of the electronic rock band Depeche Mode and is the band's main songwriter. He is the band's guitarist and keyboardist, and occasionally provides lead vocals. Gore possesses a tenor singing voice which contrasts with Dave Gahan's dramatic baritone. He is also known for his flamboyant and (sometimes) androgynous stage persona. Gore has also released several solo albums and collaborated with former Depeche Mode member Vince Clarke as part of VCMG.",
+            "image":"../../../assets/Martin.jpg"
         }        
     ],
     "albums":[
