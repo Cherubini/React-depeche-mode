@@ -18,29 +18,6 @@ import MainImg from './components/main-img/main-img';
 
 const root = document.getElementById('root') as HTMLElement;
 
-// render(
-//   <React.StrictMode>
-//     <HashRouter>
-//       <Routes>
-//         <Route path="/" element={<App />}>
-//           <Route path="/" element={<Home />}>
-//             <Route path="home?/martin" element={<Martin />} />
-//             <Route path="home?/andrew" element={<Andrew />} />
-//             <Route path="home?/dave" element={<Dave />} />
-//             <Route path="home?/alan" element={<Alan />} />
-//             <Route path="/" element={<Main />} />
-//           </Route>
-//           <Route path="home/" element={<Main />} />
-//           <Route path="biography/" element={<Biography />} />
-//           <Route path="albums/" element={<Albums />} />
-//           <Route path="gallery/" element={<Gallery />} />
-//         </Route>
-//       </Routes>
-//     </HashRouter>
-//   </React.StrictMode>,
-//   root
-// );
-
 render(
   <React.StrictMode>
     <HashRouter>
