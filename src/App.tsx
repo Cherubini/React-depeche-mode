@@ -5,7 +5,7 @@ import classes from './index.module.scss';
 function App(): JSX.Element {
 
   return (
-    <div className="App">
+    <div className={classes.App}>
         <header className={classes.header}>
         <Link className={`${classes.navLink} ${classes.headerLink}`} to="home/">
           <h1 className={classes.title}>Depeche Mode</h1>

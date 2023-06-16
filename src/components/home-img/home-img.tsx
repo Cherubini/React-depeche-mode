@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import image from '../../assets/depeche-mode.webp';
+import classes from './home-img.module.scss';
 
 const MainImg = () => {
   
@@ -8,7 +9,7 @@ const MainImg = () => {
   },[]);
   
   return (
-    <img className='img' alt='Depeche Mode' src={image} />
+    <img className={classes.img} alt='Depeche Mode' src={image} />
   )
 }
 

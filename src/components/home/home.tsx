@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import classes from './home.module.scss';
 import { Outlet, Link } from "react-router-dom";
 
-const Main = (): JSX.Element  => {
+const Home = (): JSX.Element  => {
 
     useEffect(() => {//fetch or subscribtion.rxjs
       return () => { };  // cleanup
@@ -27,4 +27,4 @@ const Main = (): JSX.Element  => {
   )
 }
 
-export default Main
+export default Home

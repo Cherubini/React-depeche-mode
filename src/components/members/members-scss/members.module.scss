@@ -8,6 +8,7 @@
     padding: 30px;
     background-color: transparent;
     border-right: 4px solid rgba(255, 255, 255, 0.144);
+    max-height: 650px;
 }
 
 .memberDetails{
@@ -26,7 +27,7 @@
 }
 
 .memberImg{
-    width: 40%;
+    width: 30%;
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.144);
     margin: 0px;

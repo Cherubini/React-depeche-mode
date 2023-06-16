@@ -13,7 +13,7 @@ import Alan from './components/members/alan/alan';
 import Andrew from './components/members/andrew/andrew';
 import Dave from './components/members/dave/dave';
 import Martin from './components/members/martin/martin';
-import MainImg from './components/main-img/main-img';
+import MainImg from './components/home-img/home-img';
 
 const root = document.getElementById('root') as HTMLElement;
 

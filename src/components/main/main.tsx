@@ -2,17 +2,17 @@ import React, { useEffect } from 'react'
 import classes from './main.module.scss'
 import { Outlet } from 'react-router-dom';
 
-const Home = (): JSX.Element  => {
+const Main = (): JSX.Element  => {
 
   useEffect(() => {//fetch or subscribtion.rxjs
     return () => { };  // cleanup
   },[]);
 
   return (
-    <div className={classes.home}>
+    <div className={classes.main}>
         <Outlet />
     </div>
   )
 }
 
-export default Home
+export default Main
