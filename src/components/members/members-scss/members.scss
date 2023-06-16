@@ -16,7 +16,8 @@
     align-items: center;
     width: 60%;
     max-height: 350px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .name{
@@ -53,6 +54,16 @@
     text-decoration: underline;
 }
 
-.member-details::-webkit-scrollbar{
-    width: 3px;
+.member-details::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.member-details::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+  
+.member-details::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.507);
+    border-radius: 10px;
 }
