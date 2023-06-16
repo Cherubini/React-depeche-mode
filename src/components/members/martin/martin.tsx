@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import martin from '../../../assets/Martin.webp';
+import martin from '../../../assets/Martin.jpg';
 import classes from '../members-scss/members.module.scss';
 
 const Martin = (): JSX.Element  => {
