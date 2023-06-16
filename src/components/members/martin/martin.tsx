@@ -7,7 +7,7 @@ const Martin = (): JSX.Element  => {
   return (
     <div className='member-card'>
         <img className='member-img' src={martin} alt='Martin Gore' />
-        <div className='member-details'>
+        <div className='member-details scrollbar'>
             <h1 className='name'>Martin Gore</h1>
             <span className='member-bio'>
                 Martin Lee Gore (Dagenham, 23 luglio 1961) è un compositore, musicista e cantautore britannico, membro del gruppo Depeche Mode.

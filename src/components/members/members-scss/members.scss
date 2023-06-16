@@ -15,12 +15,13 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    max-height: 400px;
+    max-height: 350px;
     overflow-y: scroll;
 }
 
 .name{
     color: white;
+    margin-top: 0px;
 }
 
 .member-img{
@@ -50,4 +51,8 @@
 
 .back:hover{
     text-decoration: underline;
+}
+
+.member-details::-webkit-scrollbar{
+    width: 3px;
 }
