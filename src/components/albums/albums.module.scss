@@ -1,20 +1,20 @@
-.cards-container{
+.cardsContainer{
     background-color: rgb(28, 28, 29);
     padding-top: 40px;
     padding-bottom: 60px;
 }
 
-.title-albums{
+.titleAlbums{
     color: white;
     text-align: center;
     margin-bottom: 60px;
 }
 
-.album-img{
+.albumImg{
     width: 200px;
 }
 
-.album-card{
+.albumCard{
     width: 750px;
     height: 350px;
     margin: auto;
@@ -28,8 +28,10 @@
     justify-content: space-evenly;
 }
 
-.title-album{
+.titleAlbum{
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .details{
@@ -47,9 +49,4 @@ span{
     display: block;
     color: white;
     font-size: 20px;
-}
-
-.title-album{
-    display: flex;
-    justify-content: center;
 }

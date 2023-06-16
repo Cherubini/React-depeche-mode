@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
+import classes from './index.module.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
@@ -8,7 +8,6 @@ import { render } from 'react-dom';
 import Albums from './components/albums/albums';
 import Biography from './components/biograpy/biography';
 import Gallery from './components/gallery/gallery';
-import Home from './components/main/main';
 import Main from './components/home/home';
 import Alan from './components/members/alan/alan';
 import Andrew from './components/members/andrew/andrew';

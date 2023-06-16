@@ -1,4 +1,4 @@
-.member-card{
+.memberCard{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     border-right: 4px solid rgba(255, 255, 255, 0.144);
 }
 
-.member-details{
+.memberDetails{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,45 +25,31 @@
     margin-top: 0px;
 }
 
-.member-img{
+.memberImg{
     width: 40%;
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.144);
     margin: 0px;
 }
 
-.member-bio{
+.memberBio{
     width: 70%;
-}
-
-.back-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
-
-.back{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 40px;
 }
 
 .back:hover{
     text-decoration: underline;
 }
 
-.member-details::-webkit-scrollbar {
+.memberDetails::-webkit-scrollbar {
     width: 5px;
 }
   
-.member-details::-webkit-scrollbar-track {
+.memberDetails::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
   
-.member-details::-webkit-scrollbar-thumb {
+.memberDetails::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.507);
     border-radius: 10px;
 }

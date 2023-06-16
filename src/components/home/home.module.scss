@@ -1,10 +1,5 @@
-.home{
-    /* min-height: 60vh; */
-    background-color: rgb(28, 28, 29);
-}
-
-/* .home-trasparent{
-    width: 80%;
+.homeTrasparent{
+    width: 90%;
     height: 100%;
     background-color: rgba(142, 142, 142, 0.293);
     margin: auto;
@@ -23,7 +18,7 @@
     border: 2px solid rgba(255, 255, 255, 0.144);
 }
 
-.members-box{
+.membersBox{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -43,7 +38,7 @@ span{
     font-size: 20px;
 }
 
-.depeche-mode{
+.depecheMode{
     color: white;
     text-align: center;
     font-size: 40px;
@@ -57,4 +52,4 @@ span{
   
 .link:hover{
     text-decoration: underline;
-} */
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './main.scss'
+import classes from './main.module.scss'
 import { Outlet } from 'react-router-dom';
 
 const Home = (): JSX.Element  => {
@@ -9,7 +9,7 @@ const Home = (): JSX.Element  => {
   },[]);
 
   return (
-    <div className="home">
+    <div className={classes.home}>
         <Outlet />
     </div>
   )

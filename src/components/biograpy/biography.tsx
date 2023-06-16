@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './biography.scss'
+import classes from './biography.module.scss'
 
 const Biography = (): JSX.Element  => {
   
@@ -8,10 +8,10 @@ const Biography = (): JSX.Element  => {
   },[]);
   
   return (
-    <div className="biography">
-        <div className="biography-trasparent">
-            <div className="biography-box">
-                <h1 className='title'>Biography</h1>
+    <div className={classes.biography}>
+        <div className={classes.biographyTrasparent}>
+            <div className={classes.biographyBox}>
+                <h1 className={classes.title}>Biography</h1>
                 <span>
                     I Depeche Mode sono un gruppo musicale britannico formatosi a Basildon nel 1980 e composto da Dave Gahan (voce) e Martin Gore (chitarra e tastiere).
                     La formazione originaria comprendeva anche Vince Clarke (tastiere, chitarra, cori, drum machine) ed Andy Fletcher chiamato anche Fletch (tastiere, basso e portavoce).

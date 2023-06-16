@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './albums.scss';
+import classes from './albums.module.scss';
 import SpeakAndSpell from '../../assets/Speak-&-Spell.png';
 import ABrokenFrame from '../../assets/A-Broken-Frame.png';
 import ConstructionTimeAgain from '../../assets/Contruction-Time-Again.png';
@@ -23,13 +23,13 @@ const Albums = (): JSX.Element  => {
       },[]);
 
   return (
-    <div className='cards-container'>
-        <h1 className='title-albums'>Albums</h1>
-        <div className='album-card'>
-            <h1 className='title-album'>Speak & Spell</h1>
-            <div className='details'>
-                <img className='album-img' src={SpeakAndSpell} alt="Speak & Spell" />
-                <div className='span'>
+    <div className={classes.cardsContainer}>
+        <h1 className={classes.titleAlbums}>Albums</h1>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Speak & Spell</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={SpeakAndSpell} alt="Speak & Spell" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 5 October 1981</span>
                     <span><strong>Studio:</strong> Blackwing (London)</span>
                     <span><strong>Genre:</strong> Synth-pop</span>
@@ -39,11 +39,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>A Broken Frame</h1>
-            <div className='details'>
-                <img className='album-img' src={ABrokenFrame} alt="A Broken Frame" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>A Broken Frame</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={ABrokenFrame} alt="A Broken Frame" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 27 September 1982</span>
                     <span><strong>Studio:</strong> Blackwing (London)</span>
                     <span><strong>Genre:</strong> Synth-pop</span>
@@ -53,11 +53,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Construction Time Again</h1>
-            <div className='details'>
-                <img className='album-img' src={ConstructionTimeAgain} alt="Construction Time Again" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Construction Time Again</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={ConstructionTimeAgain} alt="Construction Time Again" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 22 August 1983</span>
                     <span><strong>Studio:</strong> The Garden (London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Industrial</span>
@@ -67,11 +67,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Some Great Reward</h1>
-            <div className='details'>
-                <img className='album-img' src={SomeGreatReward} alt="Some Great Reward" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Some Great Reward</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={SomeGreatReward} alt="Some Great Reward" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 24 September 1984</span>
                     <span><strong>Studio:</strong> Music Works (Highbury, London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Industrial, New Wave</span>
@@ -81,11 +81,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Black Celebration</h1>
-            <div className='details'>
-                <img className='album-img' src={BlackCelebration} alt="Black Celebration" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Black Celebration</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={BlackCelebration} alt="Black Celebration" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 17 March 1986</span>
                     <span><strong>Studio:</strong> Westside and Genetic (London), Hansa Mischraum (Berlin)</span>
                     <span><strong>Genre:</strong> Synth-pop, Post-Punk</span>
@@ -95,11 +95,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Music For The Masses</h1>
-            <div className='details'>
-                <img className='album-img' src={MusicForTheMasses} alt="Music For The Masses" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Music For The Masses</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={MusicForTheMasses} alt="Music For The Masses" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 28 September 1987</span>
                     <span><strong>Studio:</strong> Guillaume Tell (Paris), Konk (London), Puk (Gjerlev, Denmark)</span>
                     <span><strong>Genre:</strong> Synth-pop, New Wave</span>
@@ -109,11 +109,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Violator</h1>
-            <div className='details'>
-                <img className='album-img' src={Violator} alt="Violator" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Violator</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={Violator} alt="Violator" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 19 March 1990</span>
                     <span><strong>Studio:</strong> Logic (Milan), Puk (Gjerlev), The Church Studios (London), Master Rock (London), Axis (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Alternative Rock, Dance, Gothic Rock</span>
@@ -123,11 +123,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Songs Of Faith And Devotion</h1>
-            <div className='details'>
-                <img className='album-img' src={SOFAD} alt="Songs Of Faith And Devotion" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Songs Of Faith And Devotion</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={SOFAD} alt="Songs Of Faith And Devotion" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 22 March 1993</span>
                     <span><strong>Studio:</strong> Madrid, Chateau du Pape (Hamburg)</span>
                     <span><strong>Genre:</strong> Alternative rock, Grunge</span>
@@ -137,11 +137,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Ultra</h1>
-            <div className='details'>
-                <img className='album-img' src={Ultra} alt="Speak & Spell" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Ultra</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={Ultra} alt="Speak & Spell" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 14 April 1997</span>
                     <span><strong>Studio:</strong> Abbey Road, Eastcote, Westside, Strongroom and RAK (London), Electric Lady (New York City), Larrabee West (Los Angeles)</span>
                     <span><strong>Genre:</strong> Alternative rock, Trip-Hop</span>
@@ -151,11 +151,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Exciter</h1>
-            <div className='details'>
-                <img className='album-img' src={Exciter} alt="Exciter" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Exciter</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={Exciter} alt="Exciter" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 14 May 2001</span>
                     <span><strong>Studio:</strong> RAK and Sarm West (London), Sound Design (Santa Barbara), Electric Lady and Sony (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Electronica</span>
@@ -165,11 +165,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Playing The Angel</h1>
-            <div className='details'>
-                <img className='album-img' src={PlayingTheAngel} alt="Playing The Angel" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Playing The Angel</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={PlayingTheAngel} alt="Playing The Angel" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 17 October 2005</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Stratosphere Sound (New York City), Whitfield Street (London)</span>
                     <span><strong>Genre:</strong> Electronic rock, Synth-Pop</span>
@@ -179,11 +179,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Sounds Of The Universe</h1>
-            <div className='details'>
-                <img className='album-img' src={SOTU} alt="Sounds Of The Universe" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Sounds Of The Universe</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={SOTU} alt="Sounds Of The Universe" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 17 April 2009</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Chung King (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop, Electro Rock</span>
@@ -193,11 +193,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Delta Machine</h1>
-            <div className='details'>
-                <img className='album-img' src={DeltaMachine} alt="Delta Machine" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Delta Machine</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={DeltaMachine} alt="Delta Machine" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 22 March 2013</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Jungle City (New York City)</span>
                     <span><strong>Genre:</strong> Electropop, Industrial</span>
@@ -207,11 +207,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Spirit</h1>
-            <div className='details'>
-                <img className='album-img' src={Spirit} alt="Spirit" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Spirit</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={Spirit} alt="Spirit" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 17 March 2017</span>
                     <span><strong>Studio:</strong> Sound Design (Santa Barbara, California), Jungle City (New York City)</span>
                     <span><strong>Genre:</strong> Synth-pop</span>
@@ -221,11 +221,11 @@ const Albums = (): JSX.Element  => {
                 </div>
             </div>
         </div>
-        <div className='album-card'>
-            <h1 className='title-album'>Memento Mori</h1>
-            <div className='details'>
-                <img className='album-img' src={MementoMori} alt="Memento Mori" />
-                <div className='span'>
+        <div className={classes.albumCard}>
+            <h1 className={classes.titleAlbum}>Memento Mori</h1>
+            <div className={classes.details}>
+                <img className={classes.albumImg} src={MementoMori} alt="Memento Mori" />
+                <div className={classes.span}>
                     <span><strong>Released:</strong> 24 March 2023</span>
                     <span><strong>Studio:</strong> Electric Ladyboy (Santa Barbara), Shangri-La (Malibu)</span>
                     <span><strong>Genre:</strong> Alternative Rock, Synth-pop</span>
