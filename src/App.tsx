@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import classes from './App.module.scss';
+import classes from './index.module.scss';
 
 function App(): JSX.Element {
 
