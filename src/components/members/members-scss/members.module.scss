@@ -27,7 +27,7 @@
 }
 
 .memberImg{
-    width: 30%;
+    width: 35%;
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.144);
     margin: 0px;
@@ -35,6 +35,7 @@
 
 .memberBio{
     width: 70%;
+    text-align: center;
 }
 
 .back:hover{
@@ -42,15 +43,15 @@
 }
 
 .memberDetails::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
 }
   
 .memberDetails::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px transparent;
     border-radius: 10px;
 }
   
 .memberDetails::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.507);
+    background: white;
     border-radius: 10px;
 }

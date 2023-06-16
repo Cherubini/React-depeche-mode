@@ -6,7 +6,7 @@ function App(): JSX.Element {
 
   return (
     <div className={classes.App}>
-        <header className={classes.header}>
+      <header className={classes.header}>
         <Link className={`${classes.navLink} ${classes.headerLink}`} to="home/">
           <h1 className={classes.title}>Depeche Mode</h1>
         </Link>
@@ -17,7 +17,9 @@ function App(): JSX.Element {
           <li className={classes.navLink}><Link className={classes.navLink} to="gallery/">Gallery</Link></li>
         </ul>
       </header>
-        <Outlet />
+        <div className={classes.main}>
+          <Outlet />
+        </div>
       <footer className={classes.footer}>
         <address>
           Davide Consigliere, Valentina Cherubini<br/>
