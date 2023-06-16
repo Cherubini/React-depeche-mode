@@ -21,64 +21,154 @@
     ],
     "albums":[
         {
-            "title":"",
+            "title":"Speak & Spell",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"5 October 1981",
+            "Studio":"Blackwing (London)",
+            "Genre":"Synth-pop",
+            "Length":"39:42",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
         },
         {
-            "title":"",
+            "title":"A Broken Frame",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"27 September 1982",
+            "Studio":"Blackwing (London)",
+            "Genre":"Synth-pop",
+            "Length":"40:52",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
         },
         {
-            "title":"",
+            "title":"Construction Time Again",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"22 August 1983",
+            "Studio":"The Garden (London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Industrial",
+            "Length":"42:26",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
         },
         {
-            "title":"",
+            "title":"Some Great Reward",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"24 September 1984",
+            "Studio":"Music Works (Highbury, London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Industrial, New Wave",
+            "Length":"40:18",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Gareth Jones, Daniel Miller"
         },
         {
-            "title":"",
+            "title":"Black Celebration",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"17 March 1986",
+            "Studio":"Westside and Genetic (London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Post-Punk",
+            "Length":"41:01",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Gareth Jones, Daniel Miller"
         },
         {
-            "title":"",
+            "title":"Music For The Masses",
             "album_cover":"",
-            "released":"",
-            "Studio":"",
-            "Genre":"",
-            "Length":"",
-            "Label":"",
-            "Producer":""
+            "released":"28 September 1987",
+            "Studio":"Guillaume Tell (Paris), Konk (London), Puk (Gjerlev, Denmark)",
+            "Genre":"Synth-pop, New Wave",
+            "Length":"44:04",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, David Bascombe"
+        },
+        {
+            "title":"Violator",
+            "album_cover":"",
+            "released":"19 March 1990",
+            "Studio":"Logic (Milan), Puk (Gjerlev), The Church Studios (London), Master Rock (London), Axis (New York City)",
+            "Genre":"Synth-pop, Alternative Rock, Dance, Gothic Rock",
+            "Length":"47:02",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Flood"
+        },
+        {
+            "title":"Songs Of Faith And Devotion",
+            "album_cover":"",
+            "released":"22 March 1993",
+            "Studio":"Madrid, Chateau du Pape (Hamburg)",
+            "Genre":"Alternative rock, Grunge",
+            "Length":"47:26",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Flood"
+        },
+        {
+            "title":"Ultra",
+            "album_cover":"",
+            "released":"14 April 1997",
+            "Studio":"Abbey Road, Eastcote, Westside, Strongroom and RAK (London), Electric Lady (New York City), Larrabee West (Los Angeles)",
+            "Genre":"Alternative rock, Trip-Hop",
+            "Length":"60:07",
+            "Label":"Mute",
+            "Producer":"Tim Simenon"
+        },
+        {
+            "title":"Exciter",
+            "album_cover":"",
+            "released":"14 May 2001",
+            "Studio":"RAK and Sarm West (London), Sound Design (Santa Barbara), Electric Lady and Sony (New York City)",
+            "Genre":"Synth-pop, Electronica",
+            "Length":"56:40",
+            "Label":"Mute",
+            "Producer":"Mark Bell"
+        },
+        {
+            "title":"Playing The Angel",
+            "album_cover":"",
+            "released":"17 October 2005",
+            "Studio":"Sound Design (Santa Barbara, California), Stratosphere Sound (New York City), Whitfield Street (London)",
+            "Genre":"Electronic rock, Synth-Pop",
+            "Length":"52:16",
+            "Label":"Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Sounds Of The Universe",
+            "album_cover":"",
+            "released":"17 April 2009",
+            "Studio":"Sound Design (Santa Barbara, California), Chung King (New York City)",
+            "Genre":"Synth-pop, Electro Rock",
+            "Length":"60:52",
+            "Label":"Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Delta Machine",
+            "album_cover":"",
+            "released":"22 March 2013",
+            "Studio":"Sound Design (Santa Barbara, California), Jungle City (New York City)",
+            "Genre":"Electropop, Industrial",
+            "Length":"57:55",
+            "Label":"Columbia, Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Spirit",
+            "album_cover":"",
+            "released":"17 March 2017",
+            "Studio":"Sound Design (Santa Barbara, California), Jungle City (New York City)",
+            "Genre":"Synth-pop",
+            "Length":"49:23",
+            "Label":"Columbia, Mute",
+            "Producer":"James Ford"
+        },
+        {
+            "title":"Memento Mori",
+            "album_cover":"",
+            "released":"24 March 2023",
+            "Studio":"Electric Ladyboy (Santa Barbara), Shangri-La (Malibu)",
+            "Genre":"Alternative Rock, Synth-pop",
+            "Length":"50:24",
+            "Label":"Columbia",
+            "Producer":"James Ford"
         }
     ]
 
