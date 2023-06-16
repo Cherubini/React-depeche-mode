@@ -18,7 +18,7 @@ function App(): JSX.Element {
         </ul>
       </header>
         <Outlet />
-      <footer className="footer">
+      <footer className={classes.footer}>
         <address>
           Davide Consigliere, Valentina Cherubini<br/>
           AlgoWatt, Genova(GE), 2023
