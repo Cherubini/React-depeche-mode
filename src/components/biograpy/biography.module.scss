@@ -4,7 +4,7 @@
 }
 
 .biographyTrasparent{
-    width: 1200px;
+    width: 70%;
     background-color: rgba(142, 142, 142, 0.293);
     margin: auto;
     position: relative;
@@ -34,4 +34,38 @@ span{
 
 .title{
     color: white;
+}
+
+// ADATTAMENTO PER SCHERMI:
+
+@media screen and (max-width: 765px){
+
+    .biographyTrasparent{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .biographyBox{
+        align-items: start;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    .biographyBox{
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 290px){
+
+    .biographyBox{
+        padding: 25px;
+    }
+
 }

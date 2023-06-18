@@ -72,3 +72,47 @@ code {
   text-decoration: none;
 }
 
+// ADATTAMENTO PER SCHERMI:
+
+@media screen and (max-width: 765px){
+
+  .header{
+    flex-direction: column;
+  }
+
+  .title{
+    font-size: 45px;
+  }
+
+  .navList{
+    padding: 0px;
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 430px){
+
+  .header{
+    align-items: start;
+  }
+
+  .navList{
+    margin-top: 15px;
+  }
+
+  .navLink{
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 390px){
+
+  .title{
+    font-size: 35px;
+  }
+
+}

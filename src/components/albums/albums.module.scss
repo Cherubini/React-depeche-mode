@@ -39,7 +39,7 @@
     display: flex;
 }
 
-.span{
+.spanBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,4 +50,63 @@ span{
     display: block;
     color: white;
     font-size: 20px;
+}
+
+// ADATTAMENTI PER SCHERMI:
+
+@media screen and (max-width: 920px){
+
+    .albumCard{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 920px){
+
+    .albumCard{
+        height: fit-content;
+        width: 80%;
+    }
+
+    .details{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .titleAlbum{
+        margin-bottom: 40px;
+    }
+
+    .albumImg{
+        margin-bottom: 40px;
+    }
+
+    .spanBox{
+        width: 70%;
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 410px){
+
+    .details{
+        align-items: start;
+    }
+
+    .spanBox{
+        padding-left: 0px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    .albumCard{
+        padding: 15px;
+    }
+
 }

@@ -24,6 +24,7 @@
 .name{
     color: white;
     margin-top: 0px;
+    text-align: center;
 }
 
 .memberImg{
@@ -54,4 +55,141 @@
 .memberDetails::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 10px;
+}
+
+// ADATTAMENTI PER SCHERMI:
+
+@media screen and (max-width: 1600px){
+
+    .memberCard{
+        width: 80%;
+    }
+
+    .memberImg{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1390px){
+
+    .memberCard{
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .memberImg{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .memberBio{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 930px){
+
+    .memberCard{
+        flex-direction: row;
+        width: auto;
+        border-right: none;
+    }
+
+    .memberImg{
+        width: 45%;
+        margin-bottom: 0px;
+        margin-right: 30px;
+    }
+
+    .memberBio{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 715px){
+
+    .memberCard{
+        flex-direction: column;
+        border-right: none;
+    }
+
+    .memberImg{
+        width: 60%;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .memberBio{
+        width: 90%;
+    }
+
+    .memberDetails{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+
+    .memberImg{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 510px){
+
+    .memberImg{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .memberImg{
+        width: 100%;
+    }
+
+    .memberBio{
+        text-align: start;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .memberBio{
+        width: 90%;
+    }
+
+    .name{
+        margin-right: 38%;
+    }
+
+    .memberCard{
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .memberBio{
+        text-align: start;
+        padding-right: 20px;
+    }
+
+    .memberCard{
+        padding: 0px;
+    }
+
+    .name{
+        text-align: start;
+    }
+
 }

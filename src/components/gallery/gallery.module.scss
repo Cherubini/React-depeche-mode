@@ -32,3 +32,43 @@
     text-align: center;
     margin-bottom: 100px;
 }
+
+// ADATTAMENTI PER SCHERMI:
+
+@media screen and (max-width: 1570px){
+
+    .dmImg{
+        width: 400px;
+    }
+
+    .gallery{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 530px){
+
+    .dmImg{
+        width: 100%;
+        margin: 35px auto;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .gallery{
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .gallery{
+        padding: 15px;
+        width: 80%;
+    }
+
+}
