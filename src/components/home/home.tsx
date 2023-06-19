@@ -1,14 +1,16 @@
 import React from 'react';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import classes from './home.module.scss';
 import { Outlet, Link } from "react-router-dom";
+import { log } from 'console';
 
 const Home = (): JSX.Element  => {
 
-    useEffect(() => {//fetch or subscribtion.rxjs
-      return () => { };  // cleanup
-    },[]);
 
+  
+  // const data  = useLoaderData();
+  // console.log(data);
+  
   return (
     <div className={classes.homeTrasparent}>
         <div className={classes.membersBox}>

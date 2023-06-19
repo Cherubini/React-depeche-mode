@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import classes from './albums.module.scss';
 import SpeakAndSpell from '../../assets/Speak-&-Spell.png';
 import ABrokenFrame from '../../assets/A-Broken-Frame.png';
@@ -18,9 +18,24 @@ import MementoMori from '../../assets/Memento-Mori.jpg';
 
 const Albums = (): JSX.Element  => {
     
-    useEffect(() => {//fetch or subscribtion.rxjs
-        return () => { };  // cleanup
-      },[]);
+    const [albums, setAlbums] = useState({});
+
+    const getData = async() =>{ 
+      const response = await fetch('http://localhost:3000/itData.json', {    
+      headers: {
+        "Content-Type": "application/json",
+        'Accept': 'application/json'
+      } 
+    })
+    const data = await response.json();
+    console.log(data.albums);
+    setAlbums(data.albums);
+  }
+
+    useEffect(() => {
+      getData()
+      return () => { };  // cleanup
+    },[]);
 
   return (
     <div className={classes.cardsContainer}>

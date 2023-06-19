@@ -12,6 +12,7 @@ import Andrew from './components/members/andrew/andrew';
 import Dave from './components/members/dave/dave';
 import Martin from './components/members/martin/martin';
 import MainImg from './components/home-img/home-img';
+import { getHome } from './dataService/dataService';
 
 const root = document.getElementById('root') as HTMLElement;
 
@@ -20,7 +21,7 @@ render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="/" element={<Main />}>
+          <Route path="/" element={<Main />} loader={getHome}>
             <Route path="home?/martin" element={<Martin />} />
             <Route path="home?/andrew" element={<Andrew />} />
             <Route path="home?/dave" element={<Dave />} />
