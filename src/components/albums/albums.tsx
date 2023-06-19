@@ -1,46 +1,63 @@
 import React, { useEffect, useState } from 'react';
 import classes from './albums.module.scss';
-import SpeakAndSpell from '../../assets/Speak-&-Spell.png';
-import ABrokenFrame from '../../assets/A-Broken-Frame.png';
-import ConstructionTimeAgain from '../../assets/Contruction-Time-Again.png';
-import SomeGreatReward from '../../assets/Some-Great-Reward.png';
-import BlackCelebration from '../../assets/Black-Celebration.jpg';
-import MusicForTheMasses from '../../assets/Music-For-The-Masses.png';
-import Violator from '../../assets/Violator.jpg';
-import SOFAD from '../../assets/Songs-Of-Faith-And-Devotion.png';
-import Ultra from '../../assets/Ultra.png';
-import Exciter from '../../assets/Exciter.jpg';
-import PlayingTheAngel from '../../assets/Playing-The-Angel.jpg';
-import SOTU from '../../assets/Sounds-Of-The-Universe.png';
-import DeltaMachine from '../../assets/Delta-Machine.jpg';
-import Spirit from '../../assets/Spirit.jpg';
-import MementoMori from '../../assets/Memento-Mori.jpg';
+
+interface Album {
+    Genre: string,
+    Label: string,
+    Length: string,
+    Producer: string,
+    Studio: string,
+    album_cover: string,
+    released: string,
+    title: string
+}
 
 const Albums = (): JSX.Element  => {
     
-    const [albums, setAlbums] = useState({});
+    const [albums, setAlbums] = useState<Album[]>([]);
 
     const getData = async() =>{ 
-      const response = await fetch('http://localhost:3000/itData.json', {    
+    const response = await fetch('http://localhost:3000/data/itData.json', {
       headers: {
         "Content-Type": "application/json",
         'Accept': 'application/json'
       } 
     })
     const data = await response.json();
-    console.log(data.albums);
     setAlbums(data.albums);
+    console.log(typeof albums);
+    
   }
 
     useEffect(() => {
       getData()
-      return () => { };  // cleanup
+      return () => { };
     },[]);
 
   return (
     <div className={classes.cardsContainer}>
         <h1 className={classes.titleAlbums}>Albums</h1>
-        <div className={classes.albumCard}>
+        {albums.map((album: Album) => {
+            return (
+                <div>
+                    <div className={classes.albumCard}>
+                        <h1 className={classes.titleAlbum}>{album.title}</h1>
+                        <div className={classes.details}>
+                            <img className={classes.albumImg} src={album.album_cover} alt={album.title} />
+                            <div className={classes.spanBox}>
+                                <span><strong>Released:</strong> {album.released}</span>
+                                <span><strong>Studio:</strong> {album.Studio}</span>
+                                <span><strong>Genre:</strong> {album.Genre}</span>
+                                <span><strong>Length:</strong> {album.Length}</span>
+                                <span><strong>Label:</strong> {album.Label}</span>
+                                <span><strong>Producer:</strong> {album.Producer}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )
+        })}
+        {/*<div className={classes.albumCard}>
             <h1 className={classes.titleAlbum}>Speak & Spell</h1>
             <div className={classes.details}>
                 <img className={classes.albumImg} src={SpeakAndSpell} alt="Speak & Spell" />
@@ -249,7 +266,7 @@ const Albums = (): JSX.Element  => {
                     <span><strong>Producer:</strong> James Ford</span>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
