@@ -1,0 +1,194 @@
+{
+    "bandName":"Depeche Mode",
+    "biography": "I Depeche Mode sono un gruppo musicale britannico formatosi a Basildon nel 1980 e composto da Dave Gahan (voce) e Martin Gore (chitarra e tastiere). La formazione originaria comprendeva anche Vince Clarke (tastiere, chitarra, cori, drum machine) ed Andy Fletcher chiamato anche Fletch (tastiere, basso e portavoce). Nel 1981 Clarke lasciò la band per fondare gli Yazoo con Alison Moyet e in seguito gli Erasure con Andy Bell. Dopo l'abbandono di Clarke, Alan Wilder (tastiere, batteria, cori, basso, pianoforte, percussioni) si è unito al gruppo nel 1982 per poi lasciarlo nel 1995, in seguito la band continuò la propria attività come trio fino alla morte di Fletch, avvenuta nel 2022. Affermatisi sulla scena synth pop britannica agli inizi degli anni ottanta, la loro fama si è protratta ed accresciuta negli anni. Attraverso una proficua carriera lunga quattro decenni, hanno abbracciato attraverso l'utilizzo dell'elettronica più di un genere musicale, con larghe concessioni al pop rock e alla new wave, specie nella seconda fase, e una massiccia incursione nella dance alternativa. Con oltre 100 milioni di dischi venduti in tutto il mondo, diversi gruppi e artisti provenienti da tutti i generi musicali influenzati dai loro lavori e numerose cover delle loro canzoni realizzate, i Depeche Mode sono uno dei gruppi più influenti nella storia della musica elettronica. La nota rivista musicale britannica Q li ha definiti la band elettronica più popolare e longeva che il mondo abbia mai conosciuto, e Rolling Stone la quintessenza della musica elettronica degli anni ottanta.",
+    "members": [
+        {
+            "name":"Alan Wilder",
+            "bio":"Alan Charles Wilder (Londra, 1º giugno 1959) è un compositore, arrangiatore e produttore discografico britannico. È stato tra i componenti dei Depeche Mode. Successivamente ha creato anche il progetto sperimentale di musica elettronica Recoil nel 1986, come parallelo dei Depeche Mode. All'abbandono di questi ultimi (1995), Wilder si è dedicato esclusivamente a Recoil. Wilder ha prodotto e arrangiato brani anche per i Nitzer Ebb e i Curve. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Alan.jpg"
+        },
+        {
+            "name": "Andrew Fletcher",
+            "bio": "Andrew John Fletcher, conosciuto anche semplicemente come Fletch, (Nottingham, 8 luglio 1961 - Londra, 26 maggio 2022), è stato un tastierista e musicista britannico. È noto per essere stato un membro fondatore del gruppo musicale inglese Depeche Mode, nei quali ha militato dal 1980 (anno di fondazione) fino alla sua morte, avvenuta nel 2022. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Andrew.jpeg"
+        },
+        {
+            "name": "Dave Gahan",
+            "bio": "Dave Gahan, all'anagrafe David Callcott (Epping, 9 maggio 1962), è un cantautore e musicista britannico, frontman del gruppo musicale Depeche Mode con il quale, nel 2020 è stato inserito nella Rock and Roll Hall of Fame.",
+            "image":"../../../assets/Dave.jpg"
+        },
+        {
+            "name": "Martin Gore",
+            "bio": "Martin Lee Gore (Dagenham, 23 luglio 1961) è un compositore, musicista e cantautore britannico, membro del gruppo Depeche Mode. Nella prima formazione del gruppo, il suo ruolo era soprattutto quello di tastierista, ma dopo l'abbandono di Vince Clarke, è diventato anche autore delle canzoni. Dal 1988, conseguentemente all'introduzione massiccia della chitarra nel sound della band, dal vivo ha iniziato ad alternare le tastiere a questa, il suo vero strumento. Altri suoi compiti sono sempre stati i cori e la voce principale in alcune canzoni. Grazie alle sue canzoni Gore è stato uno dei compositori ed autori migliori nel panorama musicale contemporaneo, a partire dall'elettronica, passando per il pop e arrivando sino al rock. Nel 2020 è stato inserito nella Rock and Roll Hall of Fame come membro dei Depeche Mode.",
+            "image":"../../../assets/Martin.jpg"
+        }        
+    ],
+    "albums":[
+        {
+            "title":"Speak & Spell",
+            "album_cover":"../../assets/Speak-&-Spell.png",
+            "released":"5 October 1981",
+            "Studio":"Blackwing (London)",
+            "Genre":"Synth-pop",
+            "Length":"39:42",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
+        },
+        {
+            "title":"A Broken Frame",
+            "album_cover":"../../assets/A-Broken-Frame.png",
+            "released":"27 September 1982",
+            "Studio":"Blackwing (London)",
+            "Genre":"Synth-pop",
+            "Length":"40:52",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
+        },
+        {
+            "title":"Construction Time Again",
+            "album_cover":"../../assets/Contruction-Time-Again.png",
+            "released":"22 August 1983",
+            "Studio":"The Garden (London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Industrial",
+            "Length":"42:26",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Daniel Miller"
+        },
+        {
+            "title":"Some Great Reward",
+            "album_cover":"../../assets/Some-Great-Reward.png",
+            "released":"24 September 1984",
+            "Studio":"Music Works (Highbury, London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Industrial, New Wave",
+            "Length":"40:18",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Gareth Jones, Daniel Miller"
+        },
+        {
+            "title":"Black Celebration",
+            "album_cover":"../../assets/Black-Celebration.jpg",
+            "released":"17 March 1986",
+            "Studio":"Westside and Genetic (London), Hansa Mischraum (Berlin)",
+            "Genre":"Synth-pop, Post-Punk",
+            "Length":"41:01",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Gareth Jones, Daniel Miller"
+        },
+        {
+            "title":"Music For The Masses",
+            "album_cover":"../../assets/Music-For-The-Masses.png",
+            "released":"28 September 1987",
+            "Studio":"Guillaume Tell (Paris), Konk (London), Puk (Gjerlev, Denmark)",
+            "Genre":"Synth-pop, New Wave",
+            "Length":"44:04",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, David Bascombe"
+        },
+        {
+            "title":"Violator",
+            "album_cover":"../../assets/Violator.jpg",
+            "released":"19 March 1990",
+            "Studio":"Logic (Milan), Puk (Gjerlev), The Church Studios (London), Master Rock (London), Axis (New York City)",
+            "Genre":"Synth-pop, Alternative Rock, Dance, Gothic Rock",
+            "Length":"47:02",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Flood"
+        },
+        {
+            "title":"Songs Of Faith And Devotion",
+            "album_cover":"../../assets/Songs-Of-Faith-And-Devotion.png",
+            "released":"22 March 1993",
+            "Studio":"Madrid, Chateau du Pape (Hamburg)",
+            "Genre":"Alternative rock, Grunge",
+            "Length":"47:26",
+            "Label":"Mute",
+            "Producer":"Depeche Mode, Flood"
+        },
+        {
+            "title":"Ultra",
+            "album_cover":"../../assets/Ultra.png",
+            "released":"14 April 1997",
+            "Studio":"Abbey Road, Eastcote, Westside, Strongroom and RAK (London), Electric Lady (New York City), Larrabee West (Los Angeles)",
+            "Genre":"Alternative rock, Trip-Hop",
+            "Length":"60:07",
+            "Label":"Mute",
+            "Producer":"Tim Simenon"
+        },
+        {
+            "title":"Exciter",
+            "album_cover":"../../assets/Exciter.jpg",
+            "released":"14 May 2001",
+            "Studio":"RAK and Sarm West (London), Sound Design (Santa Barbara), Electric Lady and Sony (New York City)",
+            "Genre":"Synth-pop, Electronica",
+            "Length":"56:40",
+            "Label":"Mute",
+            "Producer":"Mark Bell"
+        },
+        {
+            "title":"Playing The Angel",
+            "album_cover":"../../assets/Playing-The-Angel.jpg",
+            "released":"17 October 2005",
+            "Studio":"Sound Design (Santa Barbara, California), Stratosphere Sound (New York City), Whitfield Street (London)",
+            "Genre":"Electronic rock, Synth-Pop",
+            "Length":"52:16",
+            "Label":"Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Sounds Of The Universe",
+            "album_cover":"../../assets/Sounds-Of-The-Universe.png",
+            "released":"17 April 2009",
+            "Studio":"Sound Design (Santa Barbara, California), Chung King (New York City)",
+            "Genre":"Synth-pop, Electro Rock",
+            "Length":"60:52",
+            "Label":"Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Delta Machine",
+            "album_cover":"../../assets/Delta-Machine.jpg",
+            "released":"22 March 2013",
+            "Studio":"Sound Design (Santa Barbara, California), Jungle City (New York City)",
+            "Genre":"Electropop, Industrial",
+            "Length":"57:55",
+            "Label":"Columbia, Mute",
+            "Producer":"Ben Hillier"
+        },
+        {
+            "title":"Spirit",
+            "album_cover":"../../assets/Spirit.jpg",
+            "released":"17 March 2017",
+            "Studio":"Sound Design (Santa Barbara, California), Jungle City (New York City)",
+            "Genre":"Synth-pop",
+            "Length":"49:23",
+            "Label":"Columbia, Mute",
+            "Producer":"James Ford"
+        },
+        {
+            "title":"Memento Mori",
+            "album_cover":"../../assets/Memento-Mori.jpg",
+            "released":"24 March 2023",
+            "Studio":"Electric Ladyboy (Santa Barbara), Shangri-La (Malibu)",
+            "Genre":"Alternative Rock, Synth-pop",
+            "Length":"50:24",
+            "Label":"Columbia",
+            "Producer":"James Ford"
+        }
+    ],
+    "gallery":[
+        "../../assets/1.webp",
+        "../../assets/2.jpg",
+        "../../assets/3.jpg",
+        "../../assets/4.jpg",
+        "../../assets/5.webp",
+        "../../assets/6.jpg",
+        "../../assets/7.jpg",
+        "../../assets/8.webp",
+        "../../assets/9.webp",
+        "../../assets/10.webp",
+        "../../assets/11.webp",
+        "../../assets/12.webp",
+        "../../assets/13.jpg"
+    ]
+
+}
